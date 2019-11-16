@@ -63,3 +63,7 @@ typings/
 # gvim
 .*.*.un~
 *.*~
+*.swp
+
+# typescript
+dist/**/*

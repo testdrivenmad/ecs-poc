@@ -4,7 +4,9 @@
   "description": "PoC to find out what value ecs has in a restful microservice",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run server",
+    "build": "tsc",
+    "debug": "nodemon --inspect dist/server.js"
   },
   "repository": {
     "type": "git",
